@@ -33,7 +33,7 @@ const submit = () => {
             <div class="max-w-md mx-auto sm:px-6 lg:px-8 bg-white">
                 <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                     <div class="p-4 text-gray-900">
-                        <form @submit.prevent="submit">
+                        <form @submit.prevent="submit" enctype="multipart/form-data">
             <div>
                 <InputLabel for="name" value="Name" />
 

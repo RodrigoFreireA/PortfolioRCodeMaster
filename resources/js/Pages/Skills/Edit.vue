@@ -43,6 +43,9 @@ const submit = () => {
                 <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                     <div class="p-4 text-gray-900">
                         <form @submit.prevent="submit">
+                            @method('PUT')
+                            @csrf
+
             <div>
                 <InputLabel for="name" value="Name" />
 

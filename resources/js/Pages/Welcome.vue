@@ -1,6 +1,6 @@
 <script setup>
 import { Head, Link } from '@inertiajs/vue3';
-import FrontendLayout from '@/Layouts/FrontEnd.vue';
+import FrontendLayout from '@/Layouts/Frontend.vue';
 import Hero from '@/Components/Frontend/Hero.vue';
 import Promote from '@/Components/Frontend/Promote.vue';
 import About from '@/Components/Frontend/About.vue';
@@ -18,7 +18,7 @@ defineProps({
 </script>
 
 <template>
-    <Head title="Welcome to portfolio" />
+    <Head title="Welcome to portfolio"></Head>
     <FrontendLayout>
     <!-- Hero primary --> 
     <Hero />
